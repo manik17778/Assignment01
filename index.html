@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- meta data -->
+	<meta charset="utf-8" />
+	<!-- giving title -->
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Adding css file -->
+	<link rel="stylesheet" type="text/css" href="./cs/style.css">
+</head>
+
+<body>
+	<!-- heading for the story maker game -->
+	<h1>See-N-Say Storymaker</h1>
+	<p id="studentId"></p>
+	<section>
+		<!-- section including button id's -->
+		<h2>Create Your Story</h2>
+		<button id="noun1" onclick="noun1_on_click()">Noun 1</button>
+		<p id="choosenNoun1"></p>
+		<button id="verb" onclick="verb_on_click()">Verb</button>
+		<p id="choosenVerb"></p>
+		<button id="adjective" onclick="adjective_on_click()">Adjective</button>
+		<p id="choosenAdjective"></p>
+		<button id="noun2" onclick="noun2_on_click()">Noun 2</button>
+		<p id="choosenNoun2"></p>
+		<button id="setting" onclick="setting_on_click()">Places</button>
+		<p id="choosenSetting"></p>
+	</section>
+	<section>
+		<!-- another section including button id's -->
+		<h2>See Your Story</h2>
+		<button id="playback" onclick="playback_on_click()">Show Story</button>
+		<button id="random" onclick="random_on_click()">Random Story</button>
+		<button id="reset" onclick="reset_on_click()">Reset</button>
+		<p id="story"></p>
+	</section>
+<!-- Linking js file to html code -->
+	<script src="./js/storymaker.js"></script>
+</body>
+
+</html>

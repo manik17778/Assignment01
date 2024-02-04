@@ -1,0 +1,69 @@
+/* CSS styling */
+
+/* Global styles for the entire body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, #e1ea66, #4b88a2); /* Gradient background */
+}
+
+/* Heading styles for h1 and h2 */
+h1, h2 {
+    color: white;
+    background-color: #9f0101; /* Red background */
+    padding: 10px;
+    font-family: math; /* Specify the font-family */
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 58%); /* Text shadow */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #f4b20d; /* Yellow background */
+    color: black;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 67%); /* Box shadow */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: orangered; /* Orange-red background on hover */
+    transform: scale(1.05); /* Slight scale-up effect on hover */
+}
+
+/* Paragraph styles */
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Margin for buttons and specific elements */
+button, #playback, #random {
+    margin: 10px;
+}
+
+/* Styling for the story paragraph */
+#story {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark gray text color */
+}
+
+/* Styling for studentId paragraph */
+#studentId {
+    color: black;
+    font-size: 18px;
+}
